@@ -2,7 +2,7 @@ import NoteContext from "./noteContext";
 import { useState } from "react";
 
 const NoteState = (props) => {
-  const host = "https://docs.render.com/web-services#port-binding";
+  const host = "https://inote-server-x9wg.onrender.com";
   const notesInitial = [];
   const [notes, setNotes] = useState(notesInitial);
 
