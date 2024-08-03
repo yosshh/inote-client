@@ -6,7 +6,7 @@ const Login = (props) => {
   const [credentials, setCredentials] = useState({ email: "", password: "" });
   const handleSubmit = async (e) => {
     e.preventDefault();
-    const response = await fetch("https://docs.render.com/web-services#port-binding/api/auth/login", {
+    const response = await fetch("https://inote-server-x9wg.onrender.com/api/auth/login", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
